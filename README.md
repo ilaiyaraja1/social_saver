@@ -3,43 +3,17 @@
   
   <h4>Status Saver App helps you save Video, Photo from Whatsapp & Whatsapp Business.</h4>
   
-- 👨‍💻 All of my projects are available at [Playstore](https://play.google.com/store/apps/dev?id=5306067645342206751)
-
-- 📝 Articles at [Blog](https://banrossyn.blogspot.com/)
-
-- 💬 **JAVA & KOTLIN**
-
-- *We provide reskin service of java android code at very low cost*
-
-- ⚡  If You want to join us than message on <a href="https://wa.me/+919694260426/">Whatsapp</a> , <a href="https://t.me/banrossyn">Telegram</a>  & <a href="banrossyn@gmail.com">Mail</a>.
-
-> Note: `-- Apache License 2.0` you can't Publish any Source code without permission.
-# 
-<p align="center">
-    <a href="https://www.paypal.com/paypalme/banrossyn">
-      <img src="https://user-images.githubusercontent.com/97843190/184054819-e2e80e69-df46-4d38-8769-5d591673d412.png"/>
-    </a>
-  </p>
-<p align="center">If you like my work and Source Code is really helpful for you, <strong>Show Some Love</strong></p>
-   
    # What's new:
     😃 Bug Fixed.
     ⬇️ Fast Loading.
     ☄️ Improved user experience.
      
-     
-.
-.
 .
 # Source Code Available at Low Price.
 
 For any inquiry, app support or app customization contact us at
 
-–  banrossyn@gmail.com
-
-–  https://wa.me/+919694260426/
-
-–  https://t.me/banrossyn/
+–  ilaiyaraja.bca@gmail.com
 
 ## Note:
 This source code will be offical given directly through the developer. You will not find this on any selling website. To buy the source code, you have to directly connect with the developer. For this, payment will have to be made through the method given by the developer, after payment you will be given the source code through mail. Any kind of change in the app will be charged separately. After purchasing the app, you will be helped till it is published.

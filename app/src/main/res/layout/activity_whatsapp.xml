@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <com.google.android.material.appbar.AppBarLayout
+               android:id="@+id/appBarLayout"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:fitsSystemWindows="true"
+               android:theme="@style/AppTheme.AppBarOverlay"
+               app:elevation="10dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent">
+
+               <androidx.appcompat.widget.Toolbar
+                   android:id="@+id/toolBar"
+                   android:layout_width="match_parent"
+                   android:layout_height="45dp">
+                   <RelativeLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="match_parent"
+                           android:textColor="@color/white"
+                           android:textStyle="bold"
+                           android:textSize="16dp"
+                           android:text="Whatsapp status"
+                           android:gravity="center"/>
+
+                       <ImageView
+                           android:id="@+id/imBack"
+                           android:layout_width="30dp"
+                           android:layout_height="match_parent"
+                           android:layout_alignParentEnd="true"
+                           android:layout_centerVertical="true"
+                           android:tint="@color/white"
+                           android:layout_marginEnd="15dp"
+                           android:src="@drawable/baseline_download_24"
+                           tools:ignore="UseAppTint" />
+
+
+                       <ImageView
+                           android:id="@+id/access"
+                           android:layout_width="30dp"
+                           android:layout_height="match_parent"
+                           android:layout_centerVertical="true"
+                           android:layout_marginStart="10dp"
+                           android:padding="2dp"
+                           android:layout_marginEnd="15dp"
+                           android:layout_toStartOf="@+id/imBack"
+                           android:src="@drawable/baseline_settings_24"
+                           android:tint="@color/white"
+                           tools:ignore="UseAppTint" />
+
+
+                   </RelativeLayout>
+
+               </androidx.appcompat.widget.Toolbar>
+
+           </com.google.android.material.appbar.AppBarLayout>
+
+           <androidx.constraintlayout.widget.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+
+               <RelativeLayout
+                   android:id="@+id/RLTab"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginRight="5dp"
+                   android:background="@color/transparent"
+                   android:elevation="1dp"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toTopOf="parent">
+
+                   <com.google.android.material.tabs.TabLayout
+                       android:id="@+id/tabs"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:elevation="3dp"
+                       app:tabGravity="fill"
+                       app:tabIndicatorHeight="0dp"
+                       app:tabMode="fixed"
+                       app:tabPaddingEnd="0dp"
+                       app:tabPaddingStart="0dp"
+                       app:tabRippleColor="@null"
+                       app:tabSelectedTextColor="@color/whatsapp_color"
+                       app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+                       app:tabTextColor="@color/black" />
+               </RelativeLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:orientation="vertical"
+                   android:visibility="visible"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/RLTab">
+
+
+                   <androidx.viewpager.widget.ViewPager
+                       android:id="@+id/viewpager"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent" />
+
+                   <TextView
+                       android:id="@+id/tvAllowAccess"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerInParent="true"
+                       android:layout_marginStart="15dp"
+                       android:layout_marginEnd="15dp"
+                       android:background="@drawable/rectangle_white"
+                       android:backgroundTint="@color/black_transparent"
+                       android:gravity="center"
+                       android:padding="10dp"
+                       android:text="@string/allow_whatsapp_access"
+                       android:textColor="@color/black"
+                       android:textSize="18sp"
+                       android:visibility="gone" />
+
+               </RelativeLayout>
+
+           </androidx.constraintlayout.widget.ConstraintLayout>
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

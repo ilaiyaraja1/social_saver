@@ -1,5 +1,4 @@
 <p align="center">
-  <h1 align="center">Whatsapp-Status-Saver</h1>
   <h1>StatusSaver - Save & Share WhatsApp Statuses 📱</h1>
   <h2>Status Saver App helps you save Video, Photo from Whatsapp & Whatsapp Business.</h2>
 <h3>"Explore a new way to save and share your favorite WhatsApp statuses with StatusSaver, a feature-packed Android application developed in Java. With an intuitive interface, effortlessly download and organize status updates from your contacts. Rediscover moments by keeping a personal collection of images and videos. StatusSaver leverages the power of Java to provide a seamless experience for Android users. Elevate your status-saving game and share the joy with this user-friendly app!"</h3>
